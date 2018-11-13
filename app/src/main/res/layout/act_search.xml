@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/act_search_L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/act_search_tag"
+            zhy:max_select="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+        </com.zhy.view.flowlayout.TagFlowLayout>
+        <TextView
+            android:id="@+id/act_search_clean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="清除历史记录"
+            android:textColor="@color/black"
+            android:background="@color/view_bg"
+            android:drawableRight="@mipmap/search_clean"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <include layout="@layout/act_recycler"/>
+</LinearLayout>

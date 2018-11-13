@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hedgehog="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/act_evaluate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="非常差，不会再来"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/red"/>
+    <com.hedgehog.ratingbar.RatingBar
+        android:id="@+id/act_evaluate_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        hedgehog:clickable="true"
+        hedgehog:starCount="5"
+        hedgehog:starEmpty="@mipmap/star_2"
+        hedgehog:starFill="@mipmap/star_1"
+        hedgehog:starImageHeight="50dp"
+        hedgehog:starImageWidth="50dp"
+        hedgehog:starImagePadding="10dp"
+        android:focusable="true" />
+    <EditText
+        android:id="@+id/act_evaluate_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="50dp"
+        android:padding="10dp"
+        android:hint="亲，你的评价对他们帮助很大哟~~~"
+        android:gravity="top"
+        android:textSize="15sp"
+        android:background="@drawable/shape_galy_bk2"/>
+</LinearLayout>

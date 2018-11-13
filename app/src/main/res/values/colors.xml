@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#F26262</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparentno">#80000000</color>
+    <color name="transparentno2">#50000000</color>
+    <color name="act_title_bg">#FFFFFF</color>
+    <color name="main_bg">#FFFFFF</color>
+    <color name="color_979797">#979797</color>
+    <color name="white">#FFFFFF</color>
+    <color name="my_info">#EEEEEE</color>
+    <color name="black">#1A1A1A</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="red">#F26262</color>
+    <color name="green">#6AD5BB</color>
+    <color name="blue">#42ACF6</color>
+    <color name="blues">#EF1C306F</color>
+    <color name="blues2">#EF001C56</color>
+    <color name="fen">#E98E8D</color>
+    <color name="fen2">#F6C6C6</color>
+    <color name="orange">#FED563</color>
+    <color name="gray">#DCDCDC</color>
+    <color name="gray_join">#A0A1A6</color>
+    <color name="gray_text">#A2A2A2</color>
+    <color name="gray_text2">#565656</color>
+    <color name="gray_tab">#2C2C2C</color>
+    <color name="F1F1F1">#F1F1F1</color>
+    <color name="view_bg">#F5F5F5</color>
+</resources>

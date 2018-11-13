@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_trans2_bg"
+        android:layout_marginTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/item_room_talks_sf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/blue"/>
+        <LinearLayout
+            android:id="@+id/item_room_talks_vip_L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_huiyuan"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_vip"/>
+            <TextView
+                android:id="@+id/item_room_talks_vip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:text="5"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/item_room_talks_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称：这是说话的内容"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

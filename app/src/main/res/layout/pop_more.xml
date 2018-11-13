@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/pop_more_L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_white"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/pop_more_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="分享房间"
+                android:gravity="center"
+                android:padding="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_bg"/>
+            <TextView
+                android:id="@+id/pop_more_exit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退出房间"
+                android:gravity="center"
+                android:padding="10dp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/pop_more_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_white"
+            android:textColor="@color/red"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>

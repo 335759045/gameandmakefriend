@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/pop_apply_L"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/pop_apply_apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="申请上麦"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/red"
+            android:background="@drawable/shape_white"/>
+        <TextView
+            android:id="@+id/pop_apply_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/shape_white"/>
+    </LinearLayout>
+</LinearLayout>

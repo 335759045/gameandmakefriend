@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/act_income_detail_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/act_income_detail_rb1"
+            style="@style/income_detail"
+            android:checked="true"
+            android:text="3821.15\n收入金额" />
+        <RadioButton
+            android:id="@+id/act_income_detail_rb2"
+            style="@style/income_detail"
+            android:text="3821.15\n收入星光值" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/act_income_detail_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9月"
+        android:padding="15dp"
+        android:drawableRight="@mipmap/jiantou_btom"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/act_income_detail_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
